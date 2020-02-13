@@ -12,10 +12,17 @@ describe "say_hello" do
   do
     expect($stdout).to receive(:puts).with("Hello Ruby Programmer!")
     say_hello()
+
+def say_hello
   end
+<<<<<<< HEAD:spec/say_hello_.rb
 
 end
 
 def say_hello
 
 end
+=======
+end
+
+>>>>>>> ac24926724cec6b07d45e3e5e127e47f02f31131:spec/say_hello_spec.rb
